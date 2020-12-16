@@ -7,7 +7,9 @@ body {
     background-color: rgb(202, 198, 186);
     box-sizing: border-box;
     overflow-x: hidden;
-    color: black;
+    color: #1d1d1f;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 400;
 }
 
 header {
@@ -18,7 +20,6 @@ header {
     height: 10vh;
     margin-bottom: 0;
     text-align: center;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 38px;
     color: #000000;
 
