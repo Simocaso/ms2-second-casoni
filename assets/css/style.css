@@ -63,6 +63,7 @@ body {
     width: 300px;
     align-content: center;
     margin: auto;
+    background-color: white;
 }
 
 #restart-button {
