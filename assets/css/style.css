@@ -34,7 +34,7 @@ body {
 }
 
 #table-id {
-    border: 2px solid rgb(168, 69, 69);
+    border: 4px solid rgb(0, 145, 255);
 }
 
 
@@ -51,10 +51,20 @@ body {
     margin: auto;
 }
 
+/* cells structure */
+.cell {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(42, 42, 190);
+}
+
 #board {
     height: 300px;
     width: 300px;
-    border: 1px solid black;
     align-content: center;
     margin: auto;
 }
