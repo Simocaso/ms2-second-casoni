@@ -31,10 +31,15 @@ body {
     padding-bottom: 50px;
 }
 
-#second-section{
-    height:30vh;
+#second-section { 
+    height:90vh;
     width: 100%;
     background-color:blue ;
+}
+
+#div-ss {
+    padding-top: 40px;
+    margin: auto;
 }
 
 #board {
@@ -55,5 +60,6 @@ footer {
     height: auto;
     text-align: center;
     color: #ffffff;
+    padding: 20px 40px;
 }
 
