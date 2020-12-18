@@ -16,7 +16,7 @@ function nextMove(cell){
 
 function switchPlayer() {
     if (checkWinner(document.turn)) {
-        showGameMsg(document.turn + " Won !")
+        showGameMsg(document.turn.bold().big() + " Won !".bold().big().italics())
     } else if (document.turn == "X") {
         document.turn = "0";
         showGameMsg( document.turn.bold().big() + " has to move!");
