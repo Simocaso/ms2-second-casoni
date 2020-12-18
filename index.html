@@ -44,10 +44,14 @@
 
 
     <section id="main-section">
-        <div class="container">
-        <p>This is my Tic tac toe game coded in Javascript, enjoy the game!</p>
+        <div class="container row">
         
-          
+            <div class="col-12">    
+                 <p>This is my Tic tac toe game coded in Javascript, enjoy the game!</p>
+            </div>
+
+            <!-- Game board 3x3-->
+        <div class="col-12 card">
             <div id="board">
                 <table id="table-id">
                     <tr>
@@ -68,13 +72,19 @@
                 </table>
             </div>
 
-                 <br>
-            <p id="game-msg">messages shown</p>
-            <button type="button" class="btn btn-dark rounded" id="restart-button" onclick="startOver()">restart</button><br>
-            <button type="button" class="btn btn-dark rounded"  id="theme-switcher">light on/off</button>
-       
+           
+            <div class="bg-secondary pb-3 pt-3 rounded">
+                <!-- game messages -->
+                <p id="game-msg">messages shown</p>
+                
+                <!-- restart button -->
+                <button type="button" class="btn btn-dark rounded" id="restart-button" onclick="startOver()">restart</button><br>
+                
+                <!-- theme-switcher button -->          
+                <button type="button" class="btn btn-dark rounded"  id="theme-switcher">light on/off</button>
+            </div>
+        </div>
 
-  
             <hr class="featurette-divider">
         </div>
     </section>
