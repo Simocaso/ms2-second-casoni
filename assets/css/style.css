@@ -131,6 +131,7 @@ footer {
     }
 }
 
+/* smartwatch devices responsiveness */
 @media (max-width: 250px) {
     #theme-switcher {
     margin-left: 30px;
@@ -143,6 +144,10 @@ footer {
     #board {
     height: 129px;
     width: 129px; 
+    }
+
+    h6, a, button, li, p {
+    font-size: 10px!important ;
     }
 }
 
