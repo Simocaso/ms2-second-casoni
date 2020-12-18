@@ -18,12 +18,25 @@ body {
 .navbar {
     height: 60px;
     color: #000000;
-    text-align: center;
+    align-items: center;
     position: absolute;
     top: 0;
     left: 0;
 }
 
+.navbar-brand {
+    width:5%;
+}
+
+/*
+#theme-switcher {
+ align-items: left;
+}
+*/
+
+#theme-switcher:hover {
+ color: yellow; 
+}  
 
 /* first section */
 
@@ -34,6 +47,10 @@ body {
 #card-top {
     margin: 15px 10%;
     width: 80%;
+}
+
+#card-body-1 {
+    padding-bottom: 2px;
 }
 
 /* board */
@@ -73,14 +90,6 @@ body {
 #restart-button {
     margin: 2px auto;
 }
-
-#theme-switcher {
- margin: 2px auto;
-}
-
-#theme-switcher:hover {
- color: yellow; 
-}  
 
 /* footer 
 

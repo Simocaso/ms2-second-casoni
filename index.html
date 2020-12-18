@@ -23,11 +23,14 @@
 
 <body onload="firstMove();"> 
  
-    <!--navbar-->
+    <!--navbar--> 
 
-    <header>
-        <nav class="navbar justify-content-center navbar-expand navbar-dark bg-dark"> 
-            <a class="navbar-brand" href="index.html">Tic tac toe Game</a>
+    <header> 
+        <nav class="navbar navbar-dark bg-dark"> 
+            <a class="navbar-brand mx-auto" href="index.html">Tic tac toe Game</a>
+            <!-- theme-switcher button -->          
+            <button type="button" class="btn btn-dark rounded"  id="theme-switcher">light on/off</button>
+                       
         </nav>
     </header>
 
@@ -40,10 +43,10 @@
         <div>
     
             <div class="card border-dark" id="card-top">
-                    <div class="card-header">
-                         <h5 class="">This is my Tic tac toe game coded in Html, Css, and Javascript. Enjoy the game!</h5 >
+                    <div class="card-header text-center">
+                         <h6 class="">This is my Tic tac toe game coded in Html, Css, and Javascript. Enjoy the game!</h6 >
                     </div>
-                     <div class="card-body ml-3">
+                     <div class="card-body ml-3" id="card-body-1"> 
                          <h6>Rules</h6>
                             <ol>
                                 <li>Rule 1</li>
@@ -86,8 +89,6 @@
                      <div class="card-body">
                          <!-- restart button -->
                         <button type="button" class="btn btn-dark rounded" id="restart-button" onclick="startOver()">restart</button>
-                        <!-- theme-switcher button -->          
-                        <button type="button" class="btn btn-dark rounded"  id="theme-switcher">light on/off</button>
                         <p id="explanation-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi maxime praesentium neque. Rem voluptatum odio ex vitae eaque repellat dolores totam, sequi cupiditate aliquid illum ducimus aperiam id minima numquam!</p>
                      </div>
             </div>
