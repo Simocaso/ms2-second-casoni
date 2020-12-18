@@ -28,7 +28,6 @@ body {
 /* first section */
 
 #main-section {
-    text-align: center;
     width: 100%;
     height: auto;
     padding-top: 40px;
@@ -60,6 +59,11 @@ body {
 
 
 /* interactive section */
+
+#div-controls {
+    width: 300px;
+    margin-top: 10px;
+}
 
 #explanation-p {
     text-align: left;
