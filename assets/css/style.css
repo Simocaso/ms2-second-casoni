@@ -5,14 +5,13 @@
 
 body {
     overflow-x: hidden;
-    position: relative;
     color: #1d1d1f;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-weight: 300;
     height: 100vh;
     overflow-x: hidden;
     background-color: #d1eaf5!important;
-
+    align-items: center;
 }
 
 /* Navbar */
@@ -35,20 +34,10 @@ body {
     padding-top: 40px;
 }
 
+/* board */
+
 #table-id {
     border: 4px solid rgb(0, 145, 255);
-}
-
-
-/* cells structure */
-.cell {
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    border: 1px solid black;
-    font-weight: bold;
-    font-size: 25px;
-    color: rgb(42, 42, 190);
 }
 
 #board {
@@ -59,15 +48,39 @@ body {
     background-color: white;
 }
 
+.cell {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(42, 42, 190);
+}
+
+
+/* interactive section */
+
+#explanation-p {
+    text-align: left;
+}
+
 #restart-button {
-    margin: 25px auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 2px auto;
+}
+
+#theme-switcher {
+ margin: 2px auto;
 }
 
 #theme-switcher:hover {
- color: yellow;   
+ color: yellow; 
+}  
+
+.buttons-div {
+    display: inline;
 }
+
 
 /* footer 
 

@@ -44,45 +44,47 @@
 
 
     <section id="main-section">
-        <div class="container row">
+        <div class="mx-auto row">
         
             <div class="col-12">    
-                 <p>This is my Tic tac toe game coded in Javascript, enjoy the game!</p>
+                 <p class="mx-3">This is my Tic tac toe game coded in Html, Css, and Javascript. Enjoy the game!</p>
             </div>
 
-            <!-- Game board 3x3-->
-        <div class="col-12 card">
-            <div id="board">
-                <table id="table-id">
-                    <tr>
-                        <td class="cell" onclick="nextMove(this)"></td>
-                        <td class="cell" onclick="nextMove(this)"></td>
-                        <td class="cell" onclick="nextMove(this)"></td>
-                    </tr>
-                    <tr>
-                        <td class="cell" onclick="nextMove(this)"></td>
-                        <td class="cell" onclick="nextMove(this)"></td>
-                        <td class="cell" onclick="nextMove(this)"></td>
-                    </tr>
-                    <tr>
-                        <td class="cell" onclick="nextMove(this)"></td>
-                        <td class="cell" onclick="nextMove(this)"></td>
-                        <td class="cell" onclick="nextMove(this)"></td>
-                    </tr>
-                </table>
-            </div>
+        <!-- Game board 3x3-->
+        <div class="col-12">
+                <div id="board">
+                    <table id="table-id">
+                        <tr>
+                            <td class="cell" onclick="nextMove(this)"></td>
+                            <td class="cell" onclick="nextMove(this)"></td>
+                            <td class="cell" onclick="nextMove(this)"></td>
+                        </tr>
+                        <tr>
+                            <td class="cell" onclick="nextMove(this)"></td>
+                            <td class="cell" onclick="nextMove(this)"></td>
+                            <td class="cell" onclick="nextMove(this)"></td>
+                        </tr>
+                        <tr>
+                            <td class="cell" onclick="nextMove(this)"></td>
+                            <td class="cell" onclick="nextMove(this)"></td>
+                            <td class="cell" onclick="nextMove(this)"></td>
+                        </tr>
+                    </table>
+                </div>
 
            
-            <div class="bg-secondary pb-3 pt-3 rounded">
-                <!-- game messages -->
-                <p id="game-msg">messages shown</p>
-                
-                <!-- restart button -->
-                <button type="button" class="btn btn-dark rounded" id="restart-button" onclick="startOver()">restart</button><br>
-                
-                <!-- theme-switcher button -->          
-                <button type="button" class="btn btn-dark rounded"  id="theme-switcher">light on/off</button>
-            </div>
+                <div class="bg-light p-3 rounded mt-3">
+                    <!-- game messages -->
+                    <p id="game-msg" class="bg-warning">messages shown</p>
+                     <div class="buttons-div mx-auto">   
+                        <!-- restart button -->
+                        <button type="button" class="btn btn-dark rounded" id="restart-button" onclick="startOver()">restart</button><br>
+                        
+                        <!-- theme-switcher button -->          
+                        <button type="button" class="btn btn-dark rounded"  id="theme-switcher">light on/off</button>
+                        <p id="explanation-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi maxime praesentium neque. Rem voluptatum odio ex vitae eaque repellat dolores totam, sequi cupiditate aliquid illum ducimus aperiam id minima numquam!</p>
+                     </div>
+                </div>
         </div>
 
             <hr class="featurette-divider">
