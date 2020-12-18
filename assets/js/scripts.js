@@ -20,4 +20,9 @@ function switchPlayer() {
     }
 }
 
+
+function startOver () {
+     location.reload();
+    };
+
 //theme-switcher
