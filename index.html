@@ -81,15 +81,15 @@
 
                 <div class="card border-dark" id="div-controls">
                     
-                    <div class="card-header bg-warning">
+                    <div class="card-header bg-light text-center">
                          <!-- game messages -->
-                        <p id="game-msg" class="text">messages shown</p>
+                        <p id="game-msg" class="text"></p>
+                        <!-- restart button -->
+                        <button type="button" class="btn btn-dark rounded" id="restart-button" onclick="startOver()">restart</button>
                     </div>
 
-                     <div class="card-body">
-                         <!-- restart button -->
-                        <button type="button" class="btn btn-dark rounded" id="restart-button" onclick="startOver()">restart</button>
-                        <p id="explanation-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi maxime praesentium neque. Rem voluptatum odio ex vitae eaque repellat dolores totam, sequi cupiditate aliquid illum ducimus aperiam id minima numquam!</p>
+                     <div class="card-body text-justify-center">
+                         <p id="explanation-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi maxime praesentium neque. Rem voluptatum odio ex vitae eaque repellat dolores totam, sequi cupiditate aliquid illum ducimus aperiam id minima numquam!</p>
                      </div>
             </div>
                 
@@ -107,7 +107,6 @@
 
     -->
     
-
     <!-- SCRITPS -->
     <script src="assets/js/scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
