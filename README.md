@@ -67,7 +67,9 @@ Happy coding!
 
 
 #### Eventual bugs
-1. Only the first player is able to insert his/her symbol -> 
-2. 
+1. Only the first player is able to insert his/her symbol -> Add function switchPlayer() to change symbol each turn
+2. when clicking on a symbol, it changes each time instead of being freezed ->
 
+
+HAD TO PUSH AN EMPTY COMMIT: git commit --allow-empty -m "trigger rebuilt" , main page (https://simocaso.github.io/ms2-second-casoni/) was showing error 404
 

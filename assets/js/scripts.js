@@ -1,6 +1,6 @@
 function firstMove() {
     document.turn = "X";
-    showGameMsg( document.turn + " starts");
+    showGameMsg( document.turn.bold() + " starts");
 }
 
 function showGameMsg(message) {
@@ -18,6 +18,7 @@ function switchPlayer() {
     } else {
         document.turn = "X"
     }
+    showGameMsg( document.turn + " has to move!");
 }
 
 
