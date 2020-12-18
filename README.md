@@ -43,3 +43,27 @@ We continually tweak and adjust this template to help give you the best experien
 --------
 
 Happy coding!
+
+## Game logic and functions
+
+#### Logic
+- one of the player has to start first with a symbol, it could be either "X" or "O" (random? not random?)
+- the game will have a box/message (in a p tag) that will display suggestion/results
+- the box will show a message to let the players know who has to start
+- a function will let the message change in order to inform the respective player when to make his/her move
+- a function will give the players the possibility to insert a symbol in a cell, alternatively
+- to win 
+
+#### functions
+- a function will have to let the game messages' box say who has to start whenever the page loads/refreshes
+- a function will let the player choose his/her symbol
+- a function will let the players insert a symbol (either "X" or "O") in the cells
+- a function will have to swtich the player whenever one of them has made his/her move
+- a function will check if a player has put 3 of his/her symbols in a row (vertically, horizontally, diagonally)
+- if a player makes a "tris", a function will need to announce the winner, else - it'll show "it's a draw"
+- if a player wins with less than 9 cells filled up, a function won't make any other move available  
+- associated with a "refresh" button, a function will clear the board
+
+
+#### eventual bugs
+
