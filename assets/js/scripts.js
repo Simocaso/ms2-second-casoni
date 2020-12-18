@@ -22,15 +22,24 @@ function switchPlayer() {
 }
 
 function checkWinner(move) {
-    if (verifyTris(1,2,3,move)) {
-         showGameMsg( document.turn.bold().big() + " won!");
-    }
+    var result = false;
+    if (verifyTris(1,2,3,move) ||
+       verifyTris(4,5,6,move) ||
+       verifyTris(7,8,9,move) ||
+       verifyTris(1,5,9,move) ||
+       verifyTris(3,5,7,move) ||
+       verifyTris(1,4,7,move) ||
+       verifyTris(2,5,8,move) ||
+       verifyTris(3,6,9,move)) {
+       result = true;
+       }   
 }
 
 function verifyTris(x,y,z,move){
-    if (retrieveCell(x) == retrieveCell(y) == retrieveCell(z) == move)
-    showGameMsg( document.turn.bold().big() + " won!");
-
+    var result = false;
+    if (retrieveCell(x) == retrieveCell(y) == retrieveCell(z) == move) {
+       result = true;
+    }  return result;
 }
 
 function retrieveCell(number) {
