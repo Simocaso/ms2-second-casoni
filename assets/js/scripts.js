@@ -21,6 +21,26 @@ function switchPlayer() {
     showGameMsg( document.turn.bold().big() + " has to move!");
 }
 
+function checkWinner(move) {
+    if (verifyTris(1,2,3,move)) {
+         showGameMsg( document.turn.bold().big() + " won!");
+    }
+}
+
+function verifyTris(x,y,z,move){
+    if (retrieveCell(x) == retrieveCell(y) == retrieveCell(z) == move)
+    showGameMsg( document.turn.bold().big() + " won!");
+
+}
+
+function retrieveCell(number) {
+    return document.getElementById("c" + number).innerHTML;
+
+}
+
+function stopPlayer() {
+
+}
 
 function startOver () {
      location.reload();

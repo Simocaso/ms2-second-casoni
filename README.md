@@ -69,6 +69,7 @@ Happy coding!
 #### Eventual bugs
 1. Only the first player is able to insert his/her symbol -> Add function switchPlayer() to change symbol each turn
 2. when clicking on a symbol, it changes each time instead of being freezed ->
+3. For a fraction of second, it was showing "message shown", in the game-msg box, while loading the page -> removed game-msg text  
 
 
 HAD TO PUSH AN EMPTY COMMIT: git commit --allow-empty -m "trigger rebuilt" , main page (https://simocaso.github.io/ms2-second-casoni/) was showing error 404
