@@ -27,25 +27,18 @@
 
     <header>
         <nav class="navbar justify-content-center navbar-expand navbar-dark bg-dark"> 
-            <a class="navbar-brand" href="#">Tic tac toe Game</a>
-            <div>
-
-                <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">score</a></li>
-                </ul>
-
-            </div>
+            <a class="navbar-brand" href="index.html">Tic tac toe Game</a>
         </nav>
     </header>
 
 
     <!--main section-->
-    
+
 
     <section id="main-section">
-        <div class=" row">
-        
+       
+        <div>
+    
             <div class="card border-dark" id="card-top">
                     <div class="card-header">
                          <h5 class="">This is my Tic tac toe game coded in Html, Css, and Javascript. Enjoy the game!</h5 >
@@ -61,9 +54,8 @@
             </div>
             
         
-
         <!-- Game board 3x3-->
-        <div class="col-12">
+        <div>
                 <div id="board">
                     <table id="table-id">
                         <tr>
@@ -86,10 +78,12 @@
 
 
                 <div class="card border-dark" id="div-controls">
-                    <div class="card-header">
+                    
+                    <div class="card-header bg-warning">
                          <!-- game messages -->
-                        <p id="game-msg" class="bg-warning">messages shown</p>
+                        <p id="game-msg" class="text">messages shown</p>
                     </div>
+
                      <div class="card-body">
                          <!-- restart button -->
                         <button type="button" class="btn btn-dark rounded" id="restart-button" onclick="startOver()">restart</button>
@@ -105,7 +99,7 @@
             <hr class="featurette-divider">
         </div>
     </section>
-
+ 
    <!--footer
 
     <footer>
