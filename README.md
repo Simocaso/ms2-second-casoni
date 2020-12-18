@@ -67,5 +67,7 @@ Happy coding!
 
 
 #### Eventual bugs
+1. Only the first player is able to insert his/her symbol -> 
+2. 
 
 

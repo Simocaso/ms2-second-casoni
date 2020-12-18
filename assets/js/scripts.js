@@ -1,5 +1,5 @@
 function firstMove() {
-    document.turn = "a";
+    document.turn = "X";
     showGameMsg( document.turn + " starts");
 }
 
@@ -9,7 +9,15 @@ function showGameMsg(message) {
 
 function nextMove(cell){
     cell.innerHTML = document.turn;
+    switchPlayer();
 }
 
+function switchPlayer() {
+    if (document.turn == "X") {
+        document.turn = "0";
+    } else {
+        document.turn = "X"
+    }
+}
 
 //theme-switcher
