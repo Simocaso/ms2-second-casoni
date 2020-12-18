@@ -112,7 +112,7 @@ footer {
 }
 
 @media (max-width: 330px) {
-    .navbar a{
+    .navbar a, .navbar input{
     transform: scale(0.8);
     }
 
@@ -133,9 +133,7 @@ footer {
 
 /* smartwatch devices responsiveness */
 @media (max-width: 250px) {
-    #theme-switcher {
-    margin-left: 30px;
-    }
+   
     .cell {
     width: 43px;
     height: 43px;
@@ -150,6 +148,14 @@ footer {
     font-size: 10px!important ;
     }
 }
+
+
+@media (max-width: 169px) {
+ #theme-switcher {
+    margin:auto;
+    }
+}
+
 
 
 
