@@ -33,6 +33,12 @@ body {
     padding-top: 40px;
 }
 
+#card-top {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15px;
+}
+
 /* board */
 
 #table-id {
@@ -61,14 +67,17 @@ body {
 /* interactive section */
 
 #div-controls {
-    width: 300px;
-    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
+/*
 #explanation-p {
     text-align: left;
 }
-
+*/
 #restart-button {
     margin: 2px auto;
 }

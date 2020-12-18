@@ -39,22 +39,23 @@
         </nav>
     </header>
 
-    
+
     <!--main section-->
     
 
     <section id="main-section">
         <div class=" row">
         
-            <div class="card">
+            <div class="card border-dark" id="card-top">
                     <div class="card-header">
-                         <p class="">This is my Tic tac toe game coded in Html, Css, and Javascript. Enjoy the game!</p>
+                         <h5 class="">This is my Tic tac toe game coded in Html, Css, and Javascript. Enjoy the game!</h5 >
                     </div>
                      <div class="card-body">
                          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, qui aspernatur. Porro saepe suscipit doloribus veniam aliquam magnam fugit error, recusandae deleniti illo facere repellendus quia. Magni natus obcaecati provident?</p>
                     </div>
             </div>
             
+        
 
         <!-- Game board 3x3-->
         <div class="col-12">
@@ -78,19 +79,22 @@
                     </table>
                 </div>
 
-           
-                <div class="bg-light p-3 rounded" id="div-controls">
-                    <!-- game messages -->
-                    <p id="game-msg" class="bg-warning">messages shown</p>
-                     <div class="buttons-div mx-auto">   
-                        <!-- restart button -->
-                        <button type="button" class="btn btn-dark rounded" id="restart-button" onclick="startOver()">restart</button><br>
-                        
+
+                <div class="card border-dark" id="div-controls">
+                    <div class="card-header">
+                         <!-- game messages -->
+                        <p id="game-msg" class="bg-warning">messages shown</p>
+                    </div>
+                     <div class="card-body">
+                         <!-- restart button -->
+                        <button type="button" class="btn btn-dark rounded" id="restart-button" onclick="startOver()">restart</button>
                         <!-- theme-switcher button -->          
                         <button type="button" class="btn btn-dark rounded"  id="theme-switcher">light on/off</button>
                         <p id="explanation-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi maxime praesentium neque. Rem voluptatum odio ex vitae eaque repellat dolores totam, sequi cupiditate aliquid illum ducimus aperiam id minima numquam!</p>
                      </div>
-                </div>
+            </div>
+                
+      
         </div>
 
             <hr class="featurette-divider">
