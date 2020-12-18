@@ -5,6 +5,6 @@ function firstMove() {
 }
 
 function showGameMsg(message) {
-    document.getElementById("game-msg").innerText = message;
+    document.getElementById("game-msg").innerHTML = message;
 }
 
