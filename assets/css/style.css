@@ -11,7 +11,7 @@ body {
     font-weight: 300;
     height: 100vh;
     overflow-x: hidden;
-    background-color: #97b3ff!important;
+    background-color: #d1eaf5!important;
 
 }
 
@@ -72,6 +72,9 @@ body {
     padding-right: 20px;
 }
 
+#theme-switcher:hover {
+ color: yellow;   
+}
 
 /* footer 
 

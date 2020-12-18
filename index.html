@@ -21,7 +21,7 @@
 
 </head>
 
-<body onload="firstMove();">
+<body onload="firstMove();"> 
  
     <!--navbar-->
 
@@ -39,8 +39,10 @@
         </nav>
     </header>
 
+
     <!--main section-->
 
+    
     <section id="main-section">
         <div class="container">
         <p>This is my Tic tac toe game coded in Javascript, enjoy the game!</p>
@@ -48,26 +50,26 @@
             <div id="board">
                 <table id="table-id">
                     <tr>
-                        <td class="cell">a</td>
-                        <td class="cell">a</td>
-                        <td class="cell">a</td>
+                        <td class="cell" onclick="nextMove(this)"></td>
+                        <td class="cell" onclick="nextMove(this)"></td>
+                        <td class="cell" onclick="nextMove(this)"></td>
                     </tr>
                     <tr>
-                        <td class="cell">a</td>
-                        <td class="cell">a</td>
-                        <td class="cell">a</td>
+                        <td class="cell" onclick="nextMove(this)"></td>
+                        <td class="cell" onclick="nextMove(this)"></td>
+                        <td class="cell" onclick="nextMove(this)"></td>
                     </tr>
                     <tr>
-                        <td class="cell">a</td>
-                        <td class="cell">a</td>
-                        <td class="cell">a</td>
+                        <td class="cell" onclick="nextMove(this)"></td>
+                        <td class="cell" onclick="nextMove(this)"></td>
+                        <td class="cell" onclick="nextMove(this)"></td>
                     </tr>
                 </table>
             </div>
                  <br>
             <p id="game-msg">messages shown</p>
-            <button type="button" class="btn btn-dark rounded " id="restart-button" href="index.html">restart section</button>
-
+            <button type="button" class="btn btn-dark rounded" id="restart-button" href="index.html">restart section</button><br>
+            <button type="button" class="btn btn-dark rounded"  id="theme-switcher">light on/off</button>
         </div>
 
   

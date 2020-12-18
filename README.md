@@ -44,17 +44,18 @@ We continually tweak and adjust this template to help give you the best experien
 
 Happy coding!
 
+
 ## Game logic and functions
 
 #### Logic
-- one of the player has to start first with a symbol, it could be either "X" or "O" (random? not random?)
-- the game will have a box/message (in a p tag) that will display suggestion/results
-- the box will show a message to let the players know who has to start
-- a function will let the message change in order to inform the respective player when to make his/her move
-- a function will give the players the possibility to insert a symbol in a cell, alternatively
-- to win 
+- The game is played on a 3x3 game board
+- One player will use the "X" symbol,and the other one will use the "O" symbol 
+- Players alternate placing Xs and Os on the game board
+- Game ends whenever either oppent has three of his/her symbols in a row (winning) or all nine squares are filled.
+- The possible results are: "X won the game!", "O won the game!", "It's a draw!"
 
-#### functions
+
+#### Functions
 - a function will have to let the game messages' box say who has to start whenever the page loads/refreshes
 - a function will let the player choose his/her symbol
 - a function will let the players insert a symbol (either "X" or "O") in the cells
@@ -65,5 +66,6 @@ Happy coding!
 - associated with a "refresh" button, a function will clear the board
 
 
-#### eventual bugs
+#### Eventual bugs
+
 
