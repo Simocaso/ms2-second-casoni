@@ -95,9 +95,3 @@ function clearBoard(number) {
     document.getElementById("c" + number).innerHTML = "";
 }
 
-
-
-
-
-
-

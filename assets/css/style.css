@@ -15,6 +15,7 @@ body {
 }
 
 /* Navbar */
+
 .navbar {
     height: 60px;
     color: #000000;
@@ -28,6 +29,8 @@ body {
 .navbar-brand {
     width:12%;
 }
+
+/* theme swicther button */
 
 .label {
     background-color: #1f2124;
@@ -83,6 +86,7 @@ input[type=checkbox]:checked + .label .ball {
 #card-body-1 {
     padding-bottom: 2px;
 }
+
 
 /* board */
 
@@ -141,8 +145,6 @@ body.dark #card-header {
 }
 
 
-
-
 /* interactive section */
 
 #div-controls {
@@ -152,9 +154,33 @@ body.dark #card-header {
     margin-top: 15px;
 }
 
+#protip-div {
+     background: #de9a44;
+    margin: 3px;
+    width: 80px;
+    height: 40px;
+    float: left;
+}
+
+/* Toggle botton */
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+
+/* restart button css used for tests
 #restart-button {
     margin: 2px auto;
 }
+*/
 
 /* footer 
 
@@ -204,6 +230,7 @@ footer {
 }
 
 /* smartwatch devices responsiveness */
+
 @media (max-width: 250px) {
    
     .cell {
@@ -224,11 +251,6 @@ footer {
     h6, a, li, p {
     font-size: 13px!important ;
     }
-}
-
-
-.c1-a {
-    background-color: black!important;
 }
 
 

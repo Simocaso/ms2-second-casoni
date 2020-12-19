@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Simon's Tic Tac Toe</title>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
     <!-- Bootstrap CSS -->
@@ -54,7 +54,7 @@
                          <h6 class="">This is my Tic tac toe game coded in Html, Css, and Javascript. Enjoy the game!</h6 >
                     </div>
                      <div class="card-body ml-3" id="card-body-1"> 
-                         <h6>Rules</h6>
+                         <h6><strong>Rules:</strong></h6>
                             <ol>
                                 <li>Players alternate placing Xs and Os on the game board, <strong>X</strong> always starts first.</li>
                                 <li>Game ends whenever either oppent has three of his/her symbols in a row <strong>(Winning)</strong> or all nine squares are filled<strong> (Drawing).</strong></li>
@@ -83,10 +83,10 @@
                         </tr>
                     </table>
                 </div>
-
-
+     
+    
                 <div class="card border-dark" id="div-controls">
-                    
+                     
                     <div class="card-header bg-light text-center" id="card-header">
                          <!-- game messages -->
                         <p id="game-msg"></p>
@@ -96,12 +96,23 @@
                         onclick="startOver()">Refresh page</button> -->
                         <button type="button" class="btn btn-dark rounded" onclick="multipleFunctions()">Restart</button>
                         <p>Game number: <span id="game-counter">1</span></p>
+                    </div>   
+ 
+                    <div class="card text-justify-center ml-3">
+                        <div id="flip">
+                            <p><strong>Pro tips!</strong></p>
+                        </div>         
+                        <div id="panel">
+                            <ol>
+                                <li>When playing first, claim a corner spot instead of the center spot.</li>
+                                <li>When playing second, claim the center segment if the first player did not.</li>
+                                <li>When playing second, claim a corner spot if the first player claimed the center segment.</li>
+                                <li>Always make moves based on strategy.</li>
+                                <li>Most moves will either block, win, or set up for a win on the next turn.</li>
+                            </ol>
+                        </div>
                     </div>
-
-                     <div class="card-body text-justify-center">
-                         
-                     </div>
-            </div>
+            </div>  
                 
         </div>
 
