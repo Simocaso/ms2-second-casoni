@@ -227,12 +227,13 @@ footer {
 }
 
 @media (max-width: 330px) {
-    .navbar a, .navbar #theme-switcher{
-    transform: scale(0.8);
+    .navbar a, .navbar #theme-switcher {
+    transform: scale(0.8)!important ;
+    margin: auto;
     }
 
     .navbar{
-    padding: auto 10px;
+    padding: auto 5px;
     }
     
     .cell {
@@ -244,6 +245,10 @@ footer {
     height: 210px;
     width: 210px; 
     }
+
+    .navbar-brand {
+   padding-left: 10px;
+}
 }
 
 /* smartwatch devices responsiveness */
@@ -256,7 +261,7 @@ footer {
     }
 
     #theme-switcher {
-    transform: scale(0.6s)!important ;
+    transform: scale(0.6)!important ;
     margin: auto;
     }
 
