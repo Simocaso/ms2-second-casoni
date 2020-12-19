@@ -1,17 +1,14 @@
 
 function firstMove() {
-   
-    
-        clearBoard(1);
-        clearBoard(2);
-        clearBoard(3);
-        clearBoard(4);
-        clearBoard(5);
-        clearBoard(6);
-        clearBoard(7);
-        clearBoard(8);
-        clearBoard(9);
- 
+    clearBoard(1);
+    clearBoard(2);
+    clearBoard(3);
+    clearBoard(4);
+    clearBoard(5);
+    clearBoard(6);
+    clearBoard(7);
+    clearBoard(8);
+    clearBoard(9);
     document.turn = "X";
     document.stop = null;
     showGameMsg( document.turn.bold().big() + " starts");
@@ -20,6 +17,7 @@ function firstMove() {
 function showGameMsg(message) {
     document.getElementById("game-msg").innerHTML = message;
 }
+
 
 function nextMove(cell){
     if (document.stop != null){
@@ -34,14 +32,16 @@ function switchPlayer() {
     if (checkWinner(document.turn)) {
         showGameMsg(document.turn.bold().big() + " Won !".bold().big().italics());
         document.stop = document.turn; 
+        var result1 = document.turn.bold().big() + " Won !".bold().big().italics();
+    
     } else if (document.turn == "X") {
         document.turn = "0";
         showGameMsg( document.turn.bold().big() + " has to move!");
     } else if (document.turn = "X"){
         showGameMsg( document.turn.bold().big() + " has to move!");
-    } /*else if (checkTie(document.turn)) {
+    } else if (document.stop!= document.turn){
         showGameMsg( "it's a tie!");    //not feasible
-    }*/
+    }
 } 
 
 function checkWinner(move) { //let this function change the message, see swicthPlayer function
