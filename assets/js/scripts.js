@@ -1,7 +1,20 @@
+
 function firstMove() {
+   
+    
+        clearBoard(1);
+        clearBoard(2);
+        clearBoard(3);
+        clearBoard(4);
+        clearBoard(5);
+        clearBoard(6);
+        clearBoard(7);
+        clearBoard(8);
+        clearBoard(9);
+ 
     document.turn = "X";
     document.stop = null;
-    showGameMsg( document.turn.bold().big() + " starts")
+    showGameMsg( document.turn.bold().big() + " starts");
 }
 
 function showGameMsg(message) {
@@ -14,22 +27,22 @@ function nextMove(cell){
     } else if (cell.innerHTML == "") {
     cell.innerHTML = document.turn;
     switchPlayer();
-    }
+    } 
 }
 
 function switchPlayer() {
     if (checkWinner(document.turn)) {
         showGameMsg(document.turn.bold().big() + " Won !".bold().big().italics());
-        document.stop = document.turn;
+        document.stop = document.turn; 
     } else if (document.turn == "X") {
         document.turn = "0";
         showGameMsg( document.turn.bold().big() + " has to move!");
-    } else {
-        document.turn = "X";
+    } else if (document.turn = "X"){
         showGameMsg( document.turn.bold().big() + " has to move!");
-    }
-    
-}
+    } /*else if (checkTie(document.turn)) {
+        showGameMsg( "it's a tie!");    //not feasible
+    }*/
+} 
 
 function checkWinner(move) { //let this function change the message, see swicthPlayer function
     var result = false;
@@ -55,17 +68,15 @@ function verifyTris(x,y,z,move){
 
 function retrieveCell(number) {
     return document.getElementById("c" + number).innerHTML;
-
-}
-
-function stopPlayer() {
-
 }
 
 function startOver () {
      location.reload();
     };
 
+function clearBoard(number) {
+    document.getElementById("c" + number).innerHTML = "";
+}
 
 
 //theme-switcher
@@ -75,6 +86,7 @@ const checkbox = document.getElementById('checkbox');
 checkbox.addEventListener('change',() => {
         document.body.classList.toggle('dark');
 });
+
 
 
 

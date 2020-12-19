@@ -73,7 +73,10 @@ Happy coding!
 4. game was showing "(symbol) won!" even though the game isn't finished
 5. Couldn't display who won the game -> added "== move &&" to verifyTris function to let the cells be checked property
 6. If the player tied, no "it's a tie" message is shown.
-7. Button restart should clear the board and not refresh the page 
+7. Button restart should clear the board and not refresh the page
+
+#### next features
+1. Adding the possibility to add symbols though keyboards numbers
 
 HAD TO PUSH AN EMPTY COMMIT: git commit --allow-empty -m "trigger rebuilt" , main page (https://simocaso.github.io/ms2-second-casoni/) was showing error 404
 
