@@ -27,9 +27,8 @@ body {
 }
 
 .navbar-brand {
-    width:12%;
+   padding-left: 60px;
 }
-
 /* theme swicther button */
 
 .label {

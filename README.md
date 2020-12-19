@@ -1,50 +1,213 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome Simocaso,
+<p align="center">
+  <img src="assets/images/responsive-screen.png">
+</p>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+# Simon's Tic Tac Toe
 
-## Gitpod Reminders
+Simone Casoni's Second Milestone project:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+[View the live project here.](https://simocaso.github.io/ms2-second-casoni/)
 
-`python3 -m http.server`
+# Introduction
 
-A blue button should appear to click: *Make Public*,
+"Astra rental" is a motorcycles rental company that aim to offer the opportunity to ride motocross bikes of different engine sizes, and strokes, currently based in Dublin. 
+_Please, note that this site portrays a fictitious business, created purely for the purpose of this exercise. This will be second attempt my first Milestone Project for the Code Institute Diploma in Full Stack Development._
 
-Another blue button should appear to click: *Open Browser*.
+## UX
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Design
+I wanted to create a clean website where users could directly undestrand its purpose. In order to accomplish that, the home page shows you a carousel comprehensive of our 3 main purposes: "WHO AND WHERE", "OUR BIKES", and "REVIEWS".  
 
-A blue button should appear to click: *Make Public*,
+### Colour Scheme
 
-Another blue button should appear to click: *Open Browser*.
+- The main colours used are black, grey, white (monochromatic) and yellow. To give the website a clean, serious, and professional.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Typography
 
-## Updates Since The Instructional Video
+- Lato e Osvald, in order to give you a young and dinamic impression.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Imagery
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Imagery is important. The large, background image is designed to let you feel involved!
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Wireframes
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+- Wireframe - Loving being old fashioned. Below, you can see some scatches using pen and paper:
+<p align="center"><img src="assets/images/wf-0.png"></p> 
 
 
+  
+## User stories:
+
+### Users:
+-   As a user, I'd like to visit a clean and clear website.
+-   As a user, I'd like to be able to see the different range and type of bikes.
+-   As a user, I'd like to see the location of the business.
+-   As a user, I'd like to see reviews by other customers.
+-   As a user, I'd like to see the different types of services that the business offers, including full pricing details.
+-   As a user, I'd like to be able to click the contact number and email to contact the business straight away if I so wish.
+
+### Astra rental business owner:
+- As a business owner, I'd like to let my users have a clear idea of what we are and who we are
+- As a business owner, I'd like to clearly show our bikes fleet and prices 
+- As a business owner, I'd like to share a bit of who we are and what we want to offer
+- As a business owner, I'd like to have a website that looks fresh and professional at the same time
+
+
+## Features
+
+- Responsive on all device sizes
+- Moving carousel, to show immediately every content 
+- Interactive bottons in the carousel (if you leave your cursor above them, they will stop the sliding. They also redirect you to the respective section)
+- Navbar menu, with the resspective sections redirects
+- Scrollspy function to help you visualizing where you are
+- When you pass above the bikes cards, they will expand a bit, to help you focusing on them
+- Google maps interactive window 
+
+
+## Technologies Used
+
+### Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+  
+
+### Frameworks, Libraries & Programs Used
+
+1. [Repl:](https://repl.it/)
+
+- fast and useful editor!.
+
+2. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+
+- Bootstrap was used to assist with the responsiveness and styling of the website.
+
+3. [jQuery:](https://jquery.com/)
+
+- jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+
+4. [Hover.css:](https://ianlunn.github.io/Hover/)
+
+- Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+
+5. [Font Awesome:](https://fontawesome.com/)
+
+- Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+6. [Git/Gitpod:](https://git-scm.com/)
+
+- Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+7. [GitHub:](https://github.com/)
+
+- GitHub is used to store the projects code after being pushed from Git.
+
+8.  [https://tinypng.com/](https://tinypng.com/)
+- for letting me save almost 61% of spaces occupied by images and speeding up the website loading
+  
+ ## Deployment
+
+This website has been deployed to GitHub Pages as  [ms1.2-astra-rental](https://simocaso.github.io/ms1.2-astra-rental/)
+
+The process for deployment is documented below:
+
+-   Log into  [GitHub](https://www.github.com/)
+    
+-   Access the page with the repository for this project
+    
+-   Click on 'Settings' on the main menu over the file listing
+    
+-   Navigate down to 'GitHub Pages'
+    
+-   Select 'Branch: Master' from the menu
+    
+-   This generates a live link for the website, which is now viewable publicly
+-  
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - passed - No errors
+
+<p align="center">
+  <img src="assets/images/w3c-css.png">
+</p>
+
+- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) : 7 errors shown (but only for the code copied from Embedgooglemap, used for the google maps content)
+
+<p align="center">
+  <img src="assets/images/w3c-html.png">
+</p>
+
+
+
+
+### Further Testing
+
+- The Website was tested on Google Chrome, Internet Explorer, and Safari browsers.
+
+- The website was viewed on a variety of devices such as Laptop (Apple Macbook pro, Chromebook), iPhone devices ( iPad 10 pro, iPhone 11 pro, iPhone 7, iPhone X, iPhone 8), Android devices (Samsung galaxy s5, Samsung A7, Huawei P20), and Desktop (with 22", 24", 17" monitors).
+
+- A large amount of testing was done to ensure that all pages were linking correctly.
+
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+
+### Known Bugs
+
+No bugs found/left over so far
+
+
+### Fixed bugs, respective solutions
+
+- navbar bottom could have been confused with the background 
+  -> added a small border on the bottom
+  
+- navbar animations don't follow you whenever you scroll the page
+  -> added a scrollspy component
+  
+- section's tops are a bit cropped when you click on the navbar's links
+  -> added some padding on the top
+  
+- couldn't add a backgroung image to carousel's slides
+  -> rebuilt the carousel manually and fixed the img paths
+
+- couldn't center the google maps location
+  -> fixed it through bootstrap column method and by adjusting the inner div responsiveness 
+
+## Credits
+
+### Code
+
+- Took very very few things (navbar base, footer base, and some actual contents) from my previous website code on Repl,  https://repl.it/@simonecasoni/motocross-rental-bike
+- [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+- [Embedgooglemap](https://www.embedgooglemap.net/en/) for the google maps box code
+
+### Media
+
+-  [Font Awesome](https://fontawesome.com/6?next=%2Fstart)  for the icons used on this project.
+-  [Am I Responsive](http://ami.responsivedesign.is/)  for the image used in the UX section showing the different screen sizes.
+-  [Favicon](https://www.favicon.io/)  for the thumbnail icon on the internet tab header
+- [https://tinypng.com/](https://tinypng.com/) for letting me show how much spaced i saved
+- [Google](https://www.google.com/), for all the images i've found
+ 
+### Acknowledgements and Thanks
+
+I would like to mention all the different resources and sites that are out there, with their respective communities, which have been a huge help for me. I will list some of them below:
+- Repl
+-   Bootstrap
+-   Git Hub and Git Pod
+-   Font Awesome
+-   jQuery developers
+-   Stack Overflow
+-   Slack
+- coffee (!important)
+And lastly, I could not leave out the Code Institute team: Alex who has been so comprehensive and kind, my mentor Felipe Souza Alarcon for his help and advices during this project, his flexibility and availability.
 ## Game logic and functions
 
 #### Logic
