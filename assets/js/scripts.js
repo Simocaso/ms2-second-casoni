@@ -1,28 +1,22 @@
+/* This code was created with the help of multiple tic tac toe tutorials which have been used as reference guides and to understand the logic behind many functions,
+that being said the code has been modified from the original and no function remains exactly the same as
+in the original code, with some being changed more than others.
+*/
+
+//This function let the restart button call multiple funtion
 function multipleFunctions() {
     firstMove();
-    decrementHP();
+    gameCount();
 }
 
-// game count incrementer
-
+//This function let the game count increment whenever the restart button it's clicked
 function gameCount() {
-    let el = getElementById("game-count");
-    let currentGame = el.innerText;
-    el.innerHTML = ++currentGame;
-    
-}
-
-function decrementHP() {
-        // Get element with the id of hp
-        let el = document.getElementById("hp");
-        // Set currentCount to the text of the element
+        let el = document.getElementById("game-counter");
         let currentCount = el.innerText;
-
-          // Decrement current count and set it as the new text in our element
-          el.innerText = ++currentCount;
-        
+        el.innerText = ++currentCount;
       }
 
+//This function set X as first symbol and use the clearBoard function to erase all the cells 
 function firstMove() {
     clearBoard(1);
     clearBoard(2);
@@ -64,7 +58,10 @@ function switchPlayer() {
     } 
 } 
 
-function checkWinner(move) { //let this function change the message, see swicthPlayer function
+
+//This function change the message, see swicthPlayer function
+
+function checkWinner(move) { 
     var result = false;
     if (verifyTris(1,2,3,move) ||
        verifyTris(4,5,6, move) ||
@@ -99,13 +96,7 @@ function clearBoard(number) {
 }
 
 
-//theme-switcher
 
-const checkbox = document.getElementById('checkbox');
-
-checkbox.addEventListener('change',() => {
-        document.body.classList.toggle('dark');
-});
 
 
 
