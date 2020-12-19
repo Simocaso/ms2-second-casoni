@@ -137,13 +137,26 @@ body.dark #table-id {
 }
 
 body.dark .card {
-    background-color: rgba(255, 207, 51, 0.795);;
+    background-color: rgba(255, 207, 51, 0.87);;
 }
 
 body.dark #card-header {
-    background-color: rgba(255, 207, 51, 0.781)!important ;
+    background-color: rgba(255, 201, 51, 0.911)!important ;
 }
 
+body.dark #flip {
+  background-color:#a7a7a7;
+  border: solid 1px #333333;
+}
+
+body.dark #tips-div{
+  background-color:#b8b6b6;
+  border: solid 1px #333333;
+}
+
+body.dark #tips-ol{
+  color: #fff!important;
+}
 
 /* interactive section */
 
