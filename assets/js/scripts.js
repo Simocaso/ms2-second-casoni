@@ -1,3 +1,27 @@
+function multipleFunctions() {
+    firstMove();
+    decrementHP();
+}
+
+// game count incrementer
+
+function gameCount() {
+    let el = getElementById("game-count");
+    let currentGame = el.innerText;
+    el.innerHTML = ++currentGame;
+    
+}
+
+function decrementHP() {
+        // Get element with the id of hp
+        let el = document.getElementById("hp");
+        // Set currentCount to the text of the element
+        let currentCount = el.innerText;
+
+          // Decrement current count and set it as the new text in our element
+          el.innerText = ++currentCount;
+        
+      }
 
 function firstMove() {
     clearBoard(1);
@@ -10,7 +34,7 @@ function firstMove() {
     clearBoard(8);
     clearBoard(9);
     document.turn = "X";
-    document.stop = null;
+    varEmpty = null;
     showGameMsg( document.turn.bold().big() + " starts");
 }
 
@@ -19,8 +43,8 @@ function showGameMsg(message) {
 }
 
 
-function nextMove(cell){
-    if (document.stop != null){
+function nextMove(cell) {
+    if (varEmpty != null){
     showGameMsg(document.turn.bold().big() + " Won !".bold().big().italics());
     } else if (cell.innerHTML == "") {
     cell.innerHTML = document.turn;
@@ -31,17 +55,13 @@ function nextMove(cell){
 function switchPlayer() {
     if (checkWinner(document.turn)) {
         showGameMsg(document.turn.bold().big() + " Won !".bold().big().italics());
-        document.stop = document.turn; 
-        var result1 = document.turn.bold().big() + " Won !".bold().big().italics();
-    
+        varEmpty = document.turn; 
     } else if (document.turn == "X") {
         document.turn = "0";
         showGameMsg( document.turn.bold().big() + " has to move!");
     } else if (document.turn = "X"){
-        showGameMsg( document.turn.bold().big() + " has to move!");
-    } else if (document.stop!= document.turn){
-        showGameMsg( "it's a tie!");    //not feasible
-    }
+        showGameMsg( document.turn.bold().big() + " has to move!"); 
+    } 
 } 
 
 function checkWinner(move) { //let this function change the message, see swicthPlayer function
@@ -55,8 +75,8 @@ function checkWinner(move) { //let this function change the message, see swicthP
        verifyTris(2,5,8, move) ||
        verifyTris(3,6,9, move)) {
        result = true;
-       }   
-       return result;
+       }  
+       return result; 
 }
 
 function verifyTris(x,y,z,move){
