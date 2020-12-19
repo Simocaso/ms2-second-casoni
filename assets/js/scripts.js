@@ -1,6 +1,7 @@
 function firstMove() {
     document.turn = "X";
-    showGameMsg( document.turn.bold().big() + " starts");
+    document.stop = null;
+    showGameMsg( document.turn.bold().big() + " starts")
 }
 
 function showGameMsg(message) {
@@ -8,7 +9,9 @@ function showGameMsg(message) {
 }
 
 function nextMove(cell){
-    if (cell.innerHTML == "") {
+    if (document.stop != null){
+    showGameMsg(document.turn.bold().big() + " Won !".bold().big().italics());
+    } else if (cell.innerHTML == "") {
     cell.innerHTML = document.turn;
     switchPlayer();
     }
@@ -16,7 +19,8 @@ function nextMove(cell){
 
 function switchPlayer() {
     if (checkWinner(document.turn)) {
-        showGameMsg(document.turn.bold().big() + " Won !".bold().big().italics())
+        showGameMsg(document.turn.bold().big() + " Won !".bold().big().italics());
+        document.stop = document.turn;
     } else if (document.turn == "X") {
         document.turn = "0";
         showGameMsg( document.turn.bold().big() + " has to move!");

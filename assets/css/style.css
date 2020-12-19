@@ -115,8 +115,12 @@ body.dark {
     background-color: #1f2629!important;
 }
 
-body.dark p, body.dark h6, body.dark li {
+body.dark p, body.dark li {
     color: rgb(31, 31, 31);
+}
+
+body.dark h6 {
+    color: #ffe;
 }
 
 body.dark #board{
