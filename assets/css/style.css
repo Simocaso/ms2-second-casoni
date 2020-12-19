@@ -9,8 +9,13 @@ body {
     font-weight: 300;
     height: 100vh;
     overflow-x: hidden;
-    background-color: #d1eaf5!important;
+    background-color: #95c8f8!important;
     align-items: center;
+    transition: background-color 0.2 linear;
+}
+
+body.dark {
+    background-color: #253942!important;
 }
 
 /* Navbar */
@@ -22,6 +27,7 @@ body {
     top: 0;
     left: 0;
 }
+
 
 .navbar-brand {
     width:13%;
@@ -56,6 +62,7 @@ body {
     width: 28px;
     height: 28px;
     border-radius: 50%;
+    transition: transform 0.175s linear;
     position: absolute;
     top: 1px;
     left: 1px;
@@ -66,7 +73,7 @@ body {
     position: absolute;
 }
 
-.checkbox:checked + .label .ball {
+input[type=checkbox]:checked + .label .ball {
     transform: translateX(30px);
 }
 

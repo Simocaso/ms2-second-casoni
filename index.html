@@ -25,17 +25,17 @@
 <body onload="firstMove();"> 
    
     <!--navbar--> 
- 
+  
     <header> 
         <nav class="navbar navbar-dark bg-dark"> 
             <a class="navbar-brand mx-auto" href="index.html">Tic tac toe Game</a>
             <!-- theme-switcher button -->          
             <button type="button" class="btn btn-dark rounded"  id="theme-switcher">on/off</button>
             <div>
-                <input type="checkbox" class="checkbox" id="checkbox">     
-                <label for="checkbox" class="label">
-                    <i class="fas fa-sun"></i>
+                <input type="checkbox" onclick="switchOn()" class="checkbox" id="checkbox">     
+                <label for="checkbox"  class="label">
                     <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
                     <div class="ball"></div>
                 </label>
             </div>
@@ -60,7 +60,7 @@
                             </ol>
                     </div>
             </div>            
-        
+         
         <!-- Game board 3x3-->
         <div>
                 <div id="board">

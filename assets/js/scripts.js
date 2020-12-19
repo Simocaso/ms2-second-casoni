@@ -66,3 +66,14 @@ function startOver () {
 
 //theme-switcher
 
+const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change',() => {
+        document.body.classList.toggle('dark');
+});
+
+checkbox.addEventListener('change',() => {
+        document.board.classList.toggle('dark');
+});
+
+
