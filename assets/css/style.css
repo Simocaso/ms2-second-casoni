@@ -115,12 +115,8 @@ body.dark {
     background-color: #1f2629!important;
 }
 
-body.dark p, body.dark li {
+body.dark p, body.dark li, body.dark h6 {
     color: rgb(31, 31, 31);
-}
-
-body.dark h6 {
-    color: #ffe;
 }
 
 body.dark #board{
@@ -136,11 +132,11 @@ body.dark #table-id {
 }
 
 body.dark .card {
-    background-color: rgba(255, 207, 51, 0.623);;
+    background-color: rgba(255, 207, 51, 0.795);;
 }
 
 body.dark #card-header {
-    background-color: rgba(255, 207, 51, 0.623)!important ;
+    background-color: rgba(255, 207, 51, 0.781)!important ;
 }
 
 
