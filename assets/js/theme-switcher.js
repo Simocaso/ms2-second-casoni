@@ -9,7 +9,7 @@ checkbox.addEventListener('change',() => {
 //let the toogle botton disappear on click
 $(document).ready(function(){
   $("#flip").click(function(){
-    $("#panel").slideToggle("slow");
+    $("#tips-div").slideToggle("slow");
   });
 });
 
