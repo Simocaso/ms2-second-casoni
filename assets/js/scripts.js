@@ -1,4 +1,4 @@
-/* This code was created with the help of multiple tic tac toe tutorials which have been used as reference guides and to understand the logic behind many functions,
+/* This code was created with looking at multiple tic tac toe tutorials which have been used as reference guides and to understand the logic behind many functions,
 that being said the code has been modified from the original and no function remains exactly the same as
 in the original code, with some being changed more than others.
 */
@@ -32,6 +32,7 @@ function firstMove() {
     showGameMsg( document.turn.bold().big() + " starts");
 } 
 
+//This function will modify the message in the game-msg p
 function showGameMsg(message) {
     document.getElementById("game-msg").innerHTML = message;
 }
