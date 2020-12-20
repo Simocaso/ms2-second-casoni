@@ -159,8 +159,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [JSHint](https://jshint.com/) - no big issues found so far
 
 <p align="center">
-  <img src="assets/images/lhp.png">
-</p>
+  <img src="assets/images/jshint.png">
+</p> 
 
 
 ### Further Testing 
