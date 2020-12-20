@@ -58,11 +58,15 @@ Wireframe - created 2 previews, one using html and css, and the other one with p
 -   As a user, I'd like to have feedback regarding my moves.
 -   As a user, I'd like to see the game instructions.
 
+![picture](assets/images/user-stories.png)
+
 ### Website owner:
 - As a business owner, I'd like to let my users have a clear idea of what the website is offering.
 - As a business owner, I'd like to give my users the possibility of using the dark mode.
 - As a business owner, I'd like to have some empty space on the page so I could place some ads.
 - As a business owner, I'd like to show my users some pro tips so they could improve their skills.
+
+![picture](assets/images/owner-stories.png)
 
 ## Features
 
