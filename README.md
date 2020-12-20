@@ -49,7 +49,7 @@ Wireframe - created 2 previews, one using html and css, and the other one with p
 ![picture](assets/images/wf-1.jpg)
 
 ---
-## User stories:
+## User stories and navigation models:
 
 ### Users:
 -   As a user, I'd like to visit a clean and clear website.
