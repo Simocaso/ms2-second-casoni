@@ -37,14 +37,15 @@ I wanted to create a clean website where users could directly understand its pur
 
 ### Imagery
 
-- This time I have chosen to insert no particular image, so I could have let myself focusing on the game logic.
+- This time I have chosen to insert no image, so I could have let myself focusing on the game logic.
 
 ### Wireframes
 
 - Wireframe - created 2 previews, one using html and css, and the other one with pen and paper.
 ![picture](assets/images/wf-0.png)
 ![picture](assets/images/wf-1.jpg)
-  
+
+---
 ## User stories:
 
 ### Users:
