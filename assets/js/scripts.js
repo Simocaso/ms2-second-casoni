@@ -26,7 +26,7 @@ function firstMove() {
     clearBoard(6);
     clearBoard(7);
     clearBoard(8);
-    clearBoard(9);
+    clearBoard(9); 
     document.turn = "X";
     varEmpty = null;
     showGameMsg( document.turn.bold().big() + " starts");
