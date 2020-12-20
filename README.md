@@ -24,24 +24,26 @@ Moreover, especially who like to play in the night, the game presents also a nig
 ## UX
 
 ### Design 
-I wanted to create a clean website where users could directly undestrand its purpose. In order to accomplish that, the home page shows you a carousel comprehensive of our 3 main purposes: "WHO AND WHERE", "OUR BIKES", and "REVIEWS".  
+I wanted to create a clean website where users could directly understand its purpose. In order to accomplish that, the home page directly shows you the Tic tac toe board, the dark-mode toggle, and the Pro tips box.  
 
 ### Colour Scheme
 
-- The main colours used are black, grey, white (monochromatic) and yellow. To give the website a clean, serious, and professional.
+- The main colours used for the *Light-mode* are white and light blue, to give the website a clean and friendly look.
+- The main colours used for the *Dark-mode* are grey and yellow, to give the website a dynamic and eye-friendly look.
 
 ### Typography
 
-- Lato e Osvald, in order to give you a young and dinamic impression.
+- "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", and "sans-serif" have been put in the css in order to always give you a young and dinamic impression.
 
 ### Imagery
 
-- Imagery is important. The large, background image is designed to let you feel involved!
+- This time I have chosen to insert no particular image, so I could have let myself focusing on the game logic.
 
 ### Wireframes
 
-- Wireframe - created a preview using html and css
-<p align="center"><img src="assets/images/wf-0.png"></p>  
+- Wireframe - created 2 previews, one using html and css, and the other one with pen and paper.
+![picture](assets/images/wf-0.png)
+![picture](assets/images/wf-1.jpg)
   
 ## User stories:
 
@@ -113,6 +115,7 @@ I wanted to create a clean website where users could directly undestrand its pur
 
 8.  [https://tinypng.com/](https://tinypng.com/)
 - for letting me save almost 61% of spaces occupied by images and speeding up the website loading
+9. [https://heictojpg.com/](https://heictojpg.com/)
   
  ## Deployment
 
