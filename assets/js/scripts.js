@@ -11,8 +11,8 @@ function multipleFunctions() {
 
 //This function let the game count increment whenever the restart button it's clicked
 function gameCount() {
-        let el = document.getElementById("game-counter");
-        let currentCount = el.innerText;
+        var el = document.getElementById("game-counter");
+        var currentCount = el.innerText;
         el.innerText = ++currentCount;
       }
 
@@ -89,7 +89,7 @@ function retrieveCell(number) {
 
 function startOver () {
      location.reload();
-    };
+}
 
 function clearBoard(number) {
     document.getElementById("c" + number).innerHTML = "";

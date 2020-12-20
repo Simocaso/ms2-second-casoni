@@ -166,7 +166,7 @@ body.dark #tips-ol{
 }
 
 #protip-div {
-     background: #de9a44;
+    background: #de9a44;
     margin: 3px;
     width: 80px;
     height: 40px;
@@ -185,6 +185,7 @@ body.dark #tips-ol{
 #tips-div {
   padding-left: 30px;
   padding-right: 5px;
+  display: none;
 }
 
 /* featurette-divider */
