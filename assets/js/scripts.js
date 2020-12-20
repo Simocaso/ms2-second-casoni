@@ -37,7 +37,7 @@ function showGameMsg(message) {
     document.getElementById("game-msg").innerHTML = message;
 }
 
-
+//This function will return x/o won whenever an empty cell is clicked
 function nextMove(cell) {
     if (varEmpty != null){
     showGameMsg(document.turn.bold().big() + " Won !".bold().big().italics());
@@ -47,6 +47,7 @@ function nextMove(cell) {
     } 
 }
 
+//This function will let the symbol change alternately 
 function switchPlayer() {
     if (checkWinner(document.turn)) {
         showGameMsg(document.turn.bold().big() + " Won !".bold().big().italics());
@@ -60,8 +61,7 @@ function switchPlayer() {
 } 
 
 
-//This function change the message, see swicthPlayer function
-
+//This function will help the verifyTris function checking all the possible winning combinations 
 function checkWinner(move) { 
     var result = false;
     if (verifyTris(1,2,3,move) ||
@@ -77,6 +77,7 @@ function checkWinner(move) {
        return result; 
 }
 
+//This function will check all the possible winning combinations in association with the checkWinner function
 function verifyTris(x,y,z,move){
     var result = false;
     if (retrieveCell(x) == move && retrieveCell(y) == move && retrieveCell(z) == move) {
@@ -84,14 +85,18 @@ function verifyTris(x,y,z,move){
     }  return result;
 } 
 
+//This function will get the cell IDs (e.g: c1, c2, etc) so they can be used in the verifyTris function 
 function retrieveCell(number) {
     return document.getElementById("c" + number).innerHTML;
 }
 
+/* initial function that was associated with a button to speed up test porpuses
 function startOver () {
      location.reload();
 }
+*/
 
+//This function will clear all the cells whenever the restart button is clicked
 function clearBoard(number) {
     document.getElementById("c" + number).innerHTML = "";
 }
