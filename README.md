@@ -1,14 +1,14 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-<p align="center">
-  <img src="assets/images/responsive-screen.png">
-</p>
-
 # Simon's Tic Tac Toe
 
-Simone Casoni's Second Milestone project:
+![picture](assets/images/responsive-screen.png)
 
-[View the live project here.](https://simocaso.github.io/ms2-second-casoni/)
+## Simone Casoni's Second Milestone project:
+
+- - - 
+[LIVE DEPLOYMENT OF WEBSITE](https://simocaso.github.io/ms2-second-casoni/)
+- - -
 
 # Introduction
 
