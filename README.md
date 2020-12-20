@@ -163,7 +163,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 </p> 
 
 
-### Further Testing 
+## Further Testing 
 
 - The Website was tested on Google Chrome, Firefox, and Safari browsers.
 
@@ -180,9 +180,36 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   <img src="assets/images/lhp.png">
 </p>
  
-### Known Bugs
+### Development 
 
-No bugs found/left over so far
+---
+
+#### Logic
+- The game is played on a 3x3 game board
+- One player will use the "X" symbol, and the other one will use the "O" symbol 
+- Players alternate placing Xs and Os on the game board
+- Game ends whenever either opponent has three of his/her symbols in a row (winning) or all nine squares are filled.
+- The possible results are: "X won the game!", "O won the game!", "It's a draw!"
+
+
+#### Functions
+- a function will have to let the game messages' box say who has to start whenever the page loads/refreshes
+- a function will let the player choose his/her symbol
+- a function will let the players insert a symbol (either "X" or "O") in the cells
+- a function will have to switch the player whenever one of them has made his/her move
+- a function will check if a player has put 3 of his/her symbols in a row (vertically, horizontally, diagonally)
+- if a player makes a "tris", a function will need to announce the winner, else - it'll show "it's a draw"
+- if a player wins with less than 9 cells filled up, a function won't make any other move available  
+- associated with a "refresh" button, a function will clear the board
+ 
+
+#### Eventual bugs -> corrected
+1. Only the first player is able to insert his/her symbol -> Added function switchPlayer() to change symbol each turn
+2. When clicking on a symbol, it changes each time instead of being frozen -> Added function nextMove() to let the empty cells not be clickable
+3. For a fraction of second, it was showing "message shown", in the game-msg box, while loading the page -> Removed game-msg text  
+4. The game was showing "(symbol) won!" even though the game isn't finished -> Added switchPlayer() function
+5. Couldn't display who won the game -> added "== move &&" to verifyTris() function to let the cells be checked properly
+6. Button restart should clear the board and not refresh the page -> Replaced refresh button (and respective function) with restart button (and respective function) 
 
 
 ### Fixed bugs, respective solutions
