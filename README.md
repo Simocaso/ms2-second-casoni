@@ -12,8 +12,7 @@ Simone Casoni's Second Milestone project:
 
 # Introduction
 
-"Astra rental" is a motorcycles rental company that aim to offer the opportunity to ride motocross bikes of different engine sizes, and strokes, currently based in Dublin. 
-_Please, note that this site portrays a fictitious business, created purely for the purpose of this exercise. This will be second attempt my first Milestone Project for the Code Institute Diploma in Full Stack Development._
+
 
 ## UX
 
@@ -155,6 +154,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+- I used Light house, an open-source automated tool, to test the performance of the website. The site performed a good average score of 92:
+
+
+<p align="center">
+  <img src="assets/images/lhp.png">
+</p>
 
 ### Known Bugs
 
