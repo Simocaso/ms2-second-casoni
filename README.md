@@ -34,10 +34,8 @@ I wanted to create a clean website where users could directly undestrand its pur
 
 ### Wireframes
 
-- Wireframe - Loving being old fashioned. Below, you can see some scatches using pen and paper:
-<p align="center"><img src="assets/images/wf-0.png"></p> 
-
-
+- Wireframe - created a preview using html and css
+<p align="center"><img src="assets/images/wf-0.png"></p>  
   
 ## User stories:
 

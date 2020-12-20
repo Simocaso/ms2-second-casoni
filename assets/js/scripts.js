@@ -30,7 +30,7 @@ function firstMove() {
     document.turn = "X";
     varEmpty = null;
     showGameMsg( document.turn.bold().big() + " starts");
-}
+} 
 
 function showGameMsg(message) {
     document.getElementById("game-msg").innerHTML = message;

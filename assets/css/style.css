@@ -8,7 +8,6 @@ body {
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-weight: 300;
     height: 100vh;
-    overflow-x: hidden;
     background-color: #95c8f8!important;
     align-items: center;
     transition: background 0.2s linear;
@@ -233,7 +232,8 @@ footer {
     }
 
     .navbar{
-    padding: auto 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     }
     
     .cell {
