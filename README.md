@@ -231,7 +231,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [Font Awesome](https://fontawesome.com/6?next=%2Fstart)  for the icons used on this project.
 - [Am I Responsive](http://ami.responsivedesign.is/)  for the image used in the UX section showing the different screen sizes.
-- [Favicon](https://www.favicon.io/)  for the thumbnail icon on the internet tab header
+- [Favicon](https://www.favicon.io/)  for the toggle icons
 
  
 ### Acknowledgements and Thanks
