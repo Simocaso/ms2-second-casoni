@@ -70,7 +70,7 @@ Wireframe - created 2 previews, one using html and css, and the other one with p
 
 ## Features
 
-- Responsive to all device sizes and browsers
+- Responsive to most of device sizes (smartwatch comprehended) and browsers
 - Tic Tac Toe Interactive game
 - Dark/light mode toggle on the right-top corner
 - Pro tips expandable box
