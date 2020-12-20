@@ -111,10 +111,14 @@ Wireframe - created 2 previews, one using html and css, and the other one with p
 
 5. [Am I Responsive](http://ami.responsivedesign.is/) - Used to create mockup of responsive website for *README.md*. 
 
-6. [Youtube](https://www.w3schools.com/) - Used as a general resource for help with code.
+6. [Youtube](https://www.youtube.com/) - Used as a general resource for help with code.
 
- 
-  
+7. [Lighthouse](https://developers.google.com/web/tools/lighthouse) - Used to check accessabilty and SEO scores for the website.
+
+8. [Code Institute](https://codeinstitute.net/) - Main source of coding knowledge.
+
+9. [Code institute Slack Community](https://app.slack.com/) - Used for js insights.
+--- 
  ## Deployment
 
 This website has been deployed to GitHub Pages as  [ms2-second-casoni](https://github.com/Simocaso/ms2-second-casoni)
@@ -132,29 +136,36 @@ The process for deployment is documented below:
 -   Select 'Branch: Master' from the menu
     
 -   This generates a live link for the website, which is now viewable publicly
--  
+
+-   Moreover, I had to push an empty commit: " **git commit --allow-empty -m "trigger rebuilt** " as (https://simocaso.github.io/ms2-second-casoni/) was showing error 404
+ 
+---
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - passed - No errors
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - No errors found in my personal CSS code
 
 <p align="center">
   <img src="assets/images/w3c-css.png">
 </p>
 
-- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) : 7 errors shown (but only for the code copied from Embedgooglemap, used for the google maps content)
+- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - passed - No errors found so far
 
 <p align="center">
   <img src="assets/images/w3c-html.png">
 </p>
 
+- [JSHint](https://jshint.com/) - no big issues found so far
+
+<p align="center">
+  <img src="assets/images/lhp.png">
+</p>
 
 
+### Further Testing 
 
-### Further Testing
-
-- The Website was tested on Google Chrome, Internet Explorer, and Safari browsers.
+- The Website was tested on Google Chrome, Firefox, and Safari browsers.
 
 - The website was viewed on a variety of devices such as Laptop (Apple Macbook pro, Chromebook), iPhone devices ( iPad 10 pro, iPhone 11 pro, iPhone 7, iPhone X, iPhone 8), Android devices (Samsung galaxy s5, Samsung A7, Huawei P20), and Desktop (with 22", 24", 17" monitors).
 
@@ -221,6 +232,8 @@ I would like to mention all the different resources and sites that are out there
 And lastly, I could not leave out the Code Institute team: Alex who has been so comprehensive and kind, my mentor Felipe Souza Alarcon for his help and advices during this project, his flexibility and availability.
 ## Game logic and functions
 
+
+!!!!!!!!!!!!!!!
 #### Logic
 - The game is played on a 3x3 game board
 - One player will use the "X" symbol,and the other one will use the "O" symbol 
@@ -252,5 +265,4 @@ And lastly, I could not leave out the Code Institute team: Alex who has been so 
 #### next features
 1. Adding the possibility to add symbols though keyboards numbers
 
-HAD TO PUSH AN EMPTY COMMIT: git commit --allow-empty -m "trigger rebuilt" , main page (https://simocaso.github.io/ms2-second-casoni/) was showing error 404
 
