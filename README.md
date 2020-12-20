@@ -4,22 +4,17 @@
 
 ![picture](assets/images/responsive-screen.png)
 
-## Simone Casoni's Second Milestone project:
+## Simone Casoni's Second Milestone project :
 
---- 
 [LIVE DEPLOYMENT OF WEBSITE](https://simocaso.github.io/ms2-second-casoni/)
--- -
 
-### Light mode
-![picture](assets/images/light-mode.png)
-
-### Dark mode
-![picture](assets/images/dark-mode.png)
  
 # Introduction
 Simon's Tic tac toe is a famous interactive game based on two symbols: "X" and "O", whereas two players can play with each other to have some fun and build some strategy skills.
 Players can also have a look at the "Pro tips" box so they can have a look at some insight to win the game, or at least not lose!
 Moreover, especially who like to play in the night, the game presents also a night-mode design actionable via an intuitive toggle!
+
+I have to say that I spent quite a lot of time, before starting programming, only to think, study, and prepare all the functions present in the code. I will add them in the development section.
 
 ## UX
 
@@ -28,7 +23,12 @@ I wanted to create a clean website where users could directly understand its pur
 
 ### Colour Scheme
 
+#### Light mode
+![picture](assets/images/light-mode.png)
 - The main colours used for the *Light-mode* are white and light blue, to give the website a clean and friendly look.
+
+#### Dark mode
+![picture](assets/images/dark-mode.png)
 - The main colours used for the *Dark-mode* are grey and yellow, to give the website a dynamic and eye-friendly look.
 
 ### Typography
@@ -41,7 +41,8 @@ I wanted to create a clean website where users could directly understand its pur
 
 ### Wireframes
 
-- Wireframe - created 2 previews, one using html and css, and the other one with pen and paper.
+Wireframe - created 2 previews, one using html and css, and the other one with pen and paper.
+
 ![picture](assets/images/wf-0.png)
 ![picture](assets/images/wf-1.jpg)
 
@@ -50,29 +51,26 @@ I wanted to create a clean website where users could directly understand its pur
 
 ### Users:
 -   As a user, I'd like to visit a clean and clear website.
--   As a user, I'd like to be able to see the different range and type of bikes.
--   As a user, I'd like to see the location of the business.
--   As a user, I'd like to see reviews by other customers.
--   As a user, I'd like to see the different types of services that the business offers, including full pricing details.
--   As a user, I'd like to be able to click the contact number and email to contact the business straight away if I so wish.
+-   As a user, I'd like to be able to switch between light and dark mode.
+-   As a user, I'd like to see how many times I've played with my friends.
+-   As a user, I'd like to have feedback regarding my moves.
+-   As a user, I'd like to see the game instructions.
 
-### Astra rental business owner:
-- As a business owner, I'd like to let my users have a clear idea of what we are and who we are
-- As a business owner, I'd like to clearly show our bikes fleet and prices 
-- As a business owner, I'd like to share a bit of who we are and what we want to offer
-- As a business owner, I'd like to have a website that looks fresh and professional at the same time
-
+### Website owner:
+- As a business owner, I'd like to let my users have a clear idea of what the website is offering.
+- As a business owner, I'd like to give my users the possibility of using the dark mode.
+- As a business owner, I'd like to have some empty space on the page so I could place some ads.
+- As a business owner, I'd like to show my users some pro tips so they could improve their skills.
 
 ## Features
 
-- Responsive on all device sizes
-- Moving carousel, to show immediately every content 
-- Interactive bottons in the carousel (if you leave your cursor above them, they will stop the sliding. They also redirect you to the respective section)
-- Navbar menu, with the resspective sections redirects
-- Scrollspy function to help you visualizing where you are
-- When you pass above the bikes cards, they will expand a bit, to help you focusing on them
-- Google maps interactive window 
- 
+- Responsive to all device sizes and browsers
+- Tic Tac Toe Interactive game
+- Dark/light mode toggle on the right-top corner
+- Pro tips expandable box
+- game counter that increments every time a player restarts the game
+- Prompt feedback message box
+---
 
 ## Technologies Used
 
@@ -82,45 +80,44 @@ I wanted to create a clean website where users could directly understand its pur
 
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-  
+- [JAVASCRIPT](https://en.wikipedia.org/wiki/JavaScript)
+
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Repl:](https://repl.it/)
+1. [Repl](https://repl.it/)
 
-- fast and useful editor!.
+2. [Bootstrap 4.5.3](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
-2. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+3. [jQuery](https://jquery.com/)
 
-- Bootstrap was used to assist with the responsiveness and styling of the website.
+4. [Font Awesome](https://fontawesome.com/)
 
-3. [jQuery:](https://jquery.com/)
+5. [Git/Gitpod](https://git-scm.com/)
 
-- jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+6. [GitHub](https://github.com/)
 
-4. [Hover.css:](https://ianlunn.github.io/Hover/)
+7. [heictojpg.com](https://heictojpg.com/)
 
-- Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+### External Resources
 
-5. [Font Awesome:](https://fontawesome.com/)
+1. [JSHint](https://jshint.com/) - Used to test/validate JavaScript Code.
 
-- Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+2. [W3C HTML Validator](https://validator.w3.org/) - Used to test/validate HTML code on the website.
 
-6. [Git/Gitpod:](https://git-scm.com/)
+3. [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to test/validate the CSS code on the website.
 
-- Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+4. [W3 Schools](https://www.w3schools.com/) - Used as a general resource to help with coding.
 
-7. [GitHub:](https://github.com/)
+5. [Am I Responsive](http://ami.responsivedesign.is/) - Used to create mockup of responsive website for *README.md*. 
 
-- GitHub is used to store the projects code after being pushed from Git.
+6. [Youtube](https://www.w3schools.com/) - Used as a general resource for help with code.
 
-8.  [https://tinypng.com/](https://tinypng.com/)
-- for letting me save almost 61% of spaces occupied by images and speeding up the website loading
-9. [https://heictojpg.com/](https://heictojpg.com/)
+
   
  ## Deployment
 
-This website has been deployed to GitHub Pages as  [ms1.2-astra-rental](https://simocaso.github.io/ms1.2-astra-rental/)
+This website has been deployed to GitHub Pages as  [ms2-second-casoni](https://github.com/Simocaso/ms2-second-casoni)
 
 The process for deployment is documented below:
 
