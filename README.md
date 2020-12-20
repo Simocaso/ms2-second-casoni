@@ -10,9 +10,9 @@
 
  
 # Introduction
-Simon's Tic tac toe is a famous interactive game based on two symbols: "X" and "O", whereas two players can play with each other to have some fun and build some strategy skills.
-Players can also have a look at the "Pro tips" box so they can have a look at some insight to win the game, or at least not lose!
-Moreover, especially who like to play in the night, the game presents also a night-mode design actionable via an intuitive toggle!
+Simon's Tic tac toe is a well known interactive game based on two symbols: "X" and "O", whereas two players can play with each other to have some fun and build some strategy skills.
+Players can also click on the "Pro tips" box so they can have a look about some insights in order to win the game, or at least not lose!
+Moreover, especially for those who like to play in the night, the game presents a night-mode design actionable via an intuitive toggle!
 
 I have to say that I spent quite a lot of time, before starting programming, only to think, study, and prepare all the functions present in the code. I will add them in the development section.
 
