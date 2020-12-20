@@ -1,6 +1,6 @@
-/* This code was created with looking at multiple tic tac toe tutorials which have been used as reference guides and to understand the logic behind many functions,
-that being said the code has been modified from the original and no function remains exactly the same as
-in the original code, with some being changed more than others.
+/* This code was created looking at multiple tic tac toe tutorials which have been used as reference guides and
+to understand the logic behind many functions. that being said, the code has been modified from multiple codes and
+no function remains exactly the same as in the original codes, with some being changed more than others.
 */
 
 //This function let the restart button call multiple funtion

@@ -14,7 +14,6 @@ body {
 }
 
 /* Navbar */
-
 .navbar {
     height: 60px;
     color: #000000;
@@ -28,8 +27,8 @@ body {
 .navbar-brand {
    padding-left: 60px;
 }
-/* theme swicther button */
 
+/* theme swicther button */
 .label {
     background-color: #1f2124;
     height: 30px;
@@ -70,8 +69,7 @@ input[type=checkbox]:checked + .label .ball {
     transform: translateX(30px);
 }
 
-/* first section */
-
+/* main section */
 #main-section {
     height: auto;
 }
@@ -87,7 +85,6 @@ input[type=checkbox]:checked + .label .ball {
 
 
 /* board */
-
 #table-id {
     border: 4px solid rgb(0, 145, 255);
 }
@@ -113,7 +110,6 @@ input[type=checkbox]:checked + .label .ball {
 }
 
 /* Rules that will be activated with the dark mode */
-
 body.dark {
     background-color: #1f2629!important;
 }
@@ -157,7 +153,6 @@ body.dark #tips-ol{
 }
 
 /* interactive section */
-
 #div-controls {
     margin-left: 10%;
     margin-right: 10%;
@@ -174,7 +169,6 @@ body.dark #tips-ol{
 }
 
 /* Toggle botton */
-
 #panel, #flip {
   padding: 5px;
   text-align: center;
@@ -213,7 +207,6 @@ footer {
 */
 
 /* responsive css - media queries */
-
 @media (max-width: 438px) {
     
     .navbar-brand {
@@ -253,7 +246,6 @@ footer {
 }
 
 /* smartwatch devices responsiveness */
-
 @media (max-width: 250px) {
    
     .cell {
@@ -276,4 +268,4 @@ footer {
     }
 }
 
-
+/* end css rules */
