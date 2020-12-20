@@ -104,8 +104,6 @@ Wireframe - created 2 previews, one using html and css, and the other one with p
 
 6. [GitHub](https://github.com/)
 
-7. [heictojpg.com](https://heictojpg.com/)
-
 ### External Resources
 
 1. [JSHint](https://jshint.com/) - Used to test/validate JavaScript Code.
@@ -125,6 +123,8 @@ Wireframe - created 2 previews, one using html and css, and the other one with p
 8. [Code Institute](https://codeinstitute.net/) - Main source of coding knowledge.
 
 9. [Code institute Slack Community](https://app.slack.com/) - Used for js insights.
+
+10. [heictojpg.com](https://heictojpg.com/) Used to convert an image from .HEIC to jpg format
 --- 
  ## Deployment
 
