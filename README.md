@@ -71,7 +71,7 @@ I wanted to create a clean website where users could directly understand its pur
 - Scrollspy function to help you visualizing where you are
 - When you pass above the bikes cards, they will expand a bit, to help you focusing on them
 - Google maps interactive window 
-
+ 
 
 ## Technologies Used
 
