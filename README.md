@@ -212,13 +212,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Players will be able to play against and AI
 - Players will be able to add images so they can use them instead of symbols
-- Players will have the possibility to choose who start the game
+- Players will have the opportunity to choose who start the game
 - Players will see their personal scores saved on the website
+- Possibility to add symbols though keyboards numbers
 
+---
 ## Credits
 
 ### Code
-
 
 ### Media
 
@@ -239,38 +240,5 @@ I would like to mention all the different resources and sites that are out there
 -   Stack Overflow
 -   Slack
 -   Coffee,again! 
-
-
-!!!!!!!!!!!!!!!
-#### Logic
-- The game is played on a 3x3 game board
-- One player will use the "X" symbol,and the other one will use the "O" symbol 
-- Players alternate placing Xs and Os on the game board
-- Game ends whenever either oppent has three of his/her symbols in a row (winning) or all nine squares are filled.
-- The possible results are: "X won the game!", "O won the game!", "It's a draw!"
-
-
-#### Functions
-- a function will have to let the game messages' box say who has to start whenever the page loads/refreshes
-- a function will let the player choose his/her symbol
-- a function will let the players insert a symbol (either "X" or "O") in the cells
-- a function will have to swtich the player whenever one of them has made his/her move
-- a function will check if a player has put 3 of his/her symbols in a row (vertically, horizontally, diagonally)
-- if a player makes a "tris", a function will need to announce the winner, else - it'll show "it's a draw"
-- if a player wins with less than 9 cells filled up, a function won't make any other move available  
-- associated with a "refresh" button, a function will clear the board
-
-
-#### Eventual bugs
-1. Only the first player is able to insert his/her symbol -> Add function switchPlayer() to change symbol each turn
-2. when clicking on a symbol, it changes each time instead of being freezed ->
-3. For a fraction of second, it was showing "message shown", in the game-msg box, while loading the page -> removed game-msg text  
-4. game was showing "(symbol) won!" even though the game isn't finished
-5. Couldn't display who won the game -> added "== move &&" to verifyTris function to let the cells be checked property
-6. If the player tied, no "it's a tie" message is shown.
-7. Button restart should clear the board and not refresh the page
-
-#### next features
-1. Adding the possibility to add symbols though keyboards numbers
 
 
