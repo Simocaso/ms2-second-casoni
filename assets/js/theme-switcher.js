@@ -1,3 +1,5 @@
+// both function are the results of w3c and code institute lessons
+
 //theme-switcher
 const checkbox = document.getElementById('checkbox');
 

@@ -1,6 +1,7 @@
-/* This code was created looking at multiple tic tac toe tutorials which have been used as reference guides and
+/* This code is the result of looking at multiple tic tac toe tutorials which have been used as reference guides and
 to understand the logic behind many functions. that being said, the code has been modified from multiple codes and
 no function remains exactly the same as in the original codes, with some being changed more than others.
+https://www.youtube.com/results?search_query=tic+tac+toe+js
 */
 
 //This function let the restart button call multiple funtion
@@ -60,7 +61,6 @@ function switchPlayer() {
     } 
 } 
 
-
 //This function will help the verifyTris function checking all the possible winning combinations 
 function checkWinner(move) { 
     var result = false;
@@ -90,14 +90,14 @@ function retrieveCell(number) {
     return document.getElementById("c" + number).innerHTML;
 }
 
+//This function will clear all the cells whenever the restart button is clicked
+function clearBoard(number) {
+    document.getElementById("c" + number).innerHTML = "";
+}
+
 /* initial function that was associated with a button to speed up test porpuses
 function startOver () {
      location.reload();
 }
 */
-
-//This function will clear all the cells whenever the restart button is clicked
-function clearBoard(number) {
-    document.getElementById("c" + number).innerHTML = "";
-}
 
