@@ -184,13 +184,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ---
 
-#### Logic
+#### Game logic
 - The game is played on a 3x3 game board
 - One player will use the "X" symbol, and the other one will use the "O" symbol 
 - Players alternate placing Xs and Os on the game board
 - Game ends whenever either opponent has three of his/her symbols in a row (winning) or all nine squares are filled.
-- The possible results are: "X won the game!", "O won the game!", "It's a draw!"
-
 
 #### Functions
 - a function will have to let the game messages' box say who has to start whenever the page loads/refreshes
@@ -201,9 +199,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - if a player makes a "tris", a function will need to announce the winner, else - it'll show "it's a draw"
 - if a player wins with less than 9 cells filled up, a function won't make any other move available  
 - associated with a "refresh" button, a function will clear the board
- 
 
-#### Eventual bugs -> corrected
+#### Eventual bugs -> Respective solutions
 1. Only the first player is able to insert his/her symbol -> Added function switchPlayer() to change symbol each turn
 2. When clicking on a symbol, it changes each time instead of being frozen -> Added function nextMove() to let the empty cells not be clickable
 3. For a fraction of second, it was showing "message shown", in the game-msg box, while loading the page -> Removed game-msg text  
@@ -211,53 +208,37 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 5. Couldn't display who won the game -> added "== move &&" to verifyTris() function to let the cells be checked properly
 6. Button restart should clear the board and not refresh the page -> Replaced refresh button (and respective function) with restart button (and respective function) 
 
+#### Future features
 
-### Fixed bugs, respective solutions
-
-- navbar bottom could have been confused with the background 
-  -> added a small border on the bottom
-  
-- navbar animations don't follow you whenever you scroll the page
-  -> added a scrollspy component
-  
-- section's tops are a bit cropped when you click on the navbar's links
-  -> added some padding on the top
-  
-- couldn't add a backgroung image to carousel's slides
-  -> rebuilt the carousel manually and fixed the img paths
-
-- couldn't center the google maps location
-  -> fixed it through bootstrap column method and by adjusting the inner div responsiveness 
+- Players will be able to play against and AI
+- Players will be able to add images so they can use them instead of symbols
+- Players will have the possibility to choose who start the game
+- Players will see their personal scores saved on the website
 
 ## Credits
 
 ### Code
 
-- Took very very few things (navbar base, footer base, and some actual contents) from my previous website code on Repl,  https://repl.it/@simonecasoni/motocross-rental-bike
-- [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-- [Embedgooglemap](https://www.embedgooglemap.net/en/) for the google maps box code
 
 ### Media
 
--  [Font Awesome](https://fontawesome.com/6?next=%2Fstart)  for the icons used on this project.
--  [Am I Responsive](http://ami.responsivedesign.is/)  for the image used in the UX section showing the different screen sizes.
--  [Favicon](https://www.favicon.io/)  for the thumbnail icon on the internet tab header
-- [https://tinypng.com/](https://tinypng.com/) for letting me show how much spaced i saved
-- [Google](https://www.google.com/), for all the images i've found
+- [Font Awesome](https://fontawesome.com/6?next=%2Fstart)  for the icons used on this project.
+- [Am I Responsive](http://ami.responsivedesign.is/)  for the image used in the UX section showing the different screen sizes.
+- [Favicon](https://www.favicon.io/)  for the thumbnail icon on the internet tab header
+
  
 ### Acknowledgements and Thanks
 
 I would like to mention all the different resources and sites that are out there, with their respective communities, which have been a huge help for me. I will list some of them below:
-- Repl
+-   Repl
+-   Community of developers on Youtube
 -   Bootstrap
 -   Git Hub and Git Pod
 -   Font Awesome
 -   jQuery developers
 -   Stack Overflow
 -   Slack
-- coffee (!important)
-And lastly, I could not leave out the Code Institute team: Alex who has been so comprehensive and kind, my mentor Felipe Souza Alarcon for his help and advices during this project, his flexibility and availability.
-## Game logic and functions
+-   Coffee,again! 
 
 
 !!!!!!!!!!!!!!!
