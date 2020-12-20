@@ -176,7 +176,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - The website was viewed on a variety of devices such as Laptop (Apple Macbook pro, Chromebook), iPhone devices ( iPad 10 pro, iPhone 11 pro, iPhone 7, iPhone X, iPhone 8), Android devices (Samsung galaxy s5, Samsung A7, Huawei P20), and Desktop (with 22", 24", 17" monitors).
 
-- A large amount of testing was done to ensure that all pages were linking correctly.
+- A large amount of testing was done to ensure that all actions were working without errors in console.
 
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
