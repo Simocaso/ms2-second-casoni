@@ -12,15 +12,15 @@
 
 ![picture](assets/images/light-mode.png)
 
-![picture](assets/images/responsive-screen.png)
-
+![picture](assets/images/dark-mode.png)
+ 
 # Introduction
 
-
+ 
 
 ## UX
 
-### Design
+### Design 
 I wanted to create a clean website where users could directly undestrand its purpose. In order to accomplish that, the home page shows you a carousel comprehensive of our 3 main purposes: "WHO AND WHERE", "OUR BIKES", and "REVIEWS".  
 
 ### Colour Scheme
