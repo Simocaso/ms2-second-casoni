@@ -70,8 +70,9 @@ Wireframe - created 2 previews, one using html and css, and the other one with p
 - Tic Tac Toe Interactive game
 - Dark/light mode toggle on the right-top corner
 - Pro tips expandable box
-- game counter that increments every time a player restarts the game
+- A game counter that increments every time a player restarts the game
 - Prompt feedback message box
+- A restart button to clear the board
 ---
 
 ## Technologies Used
