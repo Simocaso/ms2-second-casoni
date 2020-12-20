@@ -160,7 +160,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <p align="center">
   <img src="assets/images/lhp.png">
 </p>
-
+ 
 ### Known Bugs
 
 No bugs found/left over so far
