@@ -10,6 +10,10 @@
 [LIVE DEPLOYMENT OF WEBSITE](https://simocaso.github.io/ms2-second-casoni/)
 - - -
 
+![picture](assets/images/light-mode.png)
+
+![picture](assets/images/responsive-screen.png)
+
 # Introduction
 
 
